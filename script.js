@@ -11,10 +11,12 @@ fetch('http://localhost:4000', {
     query{
       posts{
         title
+        author
       }
     }`
   })
-}).then(response => response.json())
+})
+  .then(response => response.json())
   .then(data => {
     // console.log(data)
     data.data.posts.forEach(post => {
