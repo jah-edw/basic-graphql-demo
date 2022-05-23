@@ -1,0 +1,35 @@
+* {
+  position: relative;
+  font-family: inter;
+}
+
+h2 {
+  margin-top: 6vh;
+  margin-left: 15vh;
+  margin-bottom: 4vh;
+}
+
+li:before {
+  content: '\2605';
+  margin-left: -27px;
+  margin-right: 10px;
+}
+
+li {
+  margin-left: 18vh;
+  margin-bottom: 3vh;
+}
+
+.container {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 20vh;
+  background-color: white;
+  padding-bottom: 10vh;
+  padding-top: 2vh;
+  border-radius: 8px;
+}
+
+body {
+  background-color: #ededed;
+}
